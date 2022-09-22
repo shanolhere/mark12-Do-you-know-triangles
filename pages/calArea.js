@@ -96,6 +96,6 @@ check3.addEventListener('click', () => {
     message3.innerHTML = "Values must be greater than 0."
   }
   else{
-    message3.innerHTML = (side1Val * side2Val * Math.sin(anglecVal*Math.PI/180))/2;
+    message3.innerHTML = ((side1Val * side2Val * Math.sin(anglecVal*Math.PI/180))/2)).toFixed(2);
     }
 })
